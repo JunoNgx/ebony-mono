@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Another lightweight and minimalist classless CSS framework.",
   "main": "index.js",
+  "respository": {
+    "type": "git",
+    "url": "https://github.com/JunoNgx/ebony-mono"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
