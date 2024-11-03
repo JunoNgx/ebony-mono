@@ -54,6 +54,10 @@ body > footer {
     width: 100%;
 }
 
+footer {
+    text-align: center;
+}
+
 /* Headings */
 
 h1 {
