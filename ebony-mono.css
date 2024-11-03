@@ -38,7 +38,7 @@ body {
 
 header,
 main,
-main section + section {
+main section {
     margin-top: 0;
     margin-bottom: 1rem;
 }
