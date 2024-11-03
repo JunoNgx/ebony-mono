@@ -1,0 +1,55 @@
+/* Ebony Mono is made by Juno Nguyen under MIT license 
+ * https://github.com/JunoNgx/ebony-mono
+ * v1.0
+ */
+
+/* Universal colour variables */
+:root {
+    --fg-col: #000;
+    --bg-col: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --fg-col: #fff;
+        --bg-col: #000;
+    }
+}
+
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.25rem;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: var(--fg-col);
+    background: var(--bg-col);
+    /* Set the font family to existing common system UI  */
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header,
+main,
+main section + section {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+body > header,
+body > main,
+body > footer {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 660px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+}
